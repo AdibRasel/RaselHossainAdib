@@ -1,0 +1,172 @@
+.page_name{
+    width: 93%;
+    height: 28px;
+    background-color: #e9ecef;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-radius: 10px;
+}
+.page_name a{
+    color: #007bff;
+}
+
+.main_box{
+    width: 95%;
+    height: 350px;
+    background-color:#b3b3b3;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid #445;
+    display: flex;
+}
+.main_box:hover{
+    width: 95%;
+    /* height: 400px; */
+    background-color:rgb(233 236 239);
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid #445;
+}
+
+.main_left{
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+}
+.main_left img{
+    width: 450px;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+.main_right{
+    display: block;
+} */
+
+.main_right h1{
+    font-family: serif;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-size: 40px;
+    color:#293ea3
+}
+.main_right p{
+    margin-left: 170px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    color: #292c2f;
+}
+.main_right img{
+    width: 342px;
+    height: 162px;
+    margin-left: 85px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .main_box {
+        display: none;    
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .page_name{
+        max-width: 100%;
+        width: 70%;
+        height: 28px;
+        background-color: #e9ecef;
+        text-align: left;
+        padding-left: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-top: 8px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  @media screen and (min-width: 600px) {
+    div.mobile_device {
+      display: none;
+    }
+  }
+
+.mobile_device{
+    text-align: center;
+}
+
+.mobile_device h1{
+    width: auto;
+    /* border: 3px solid #432; */
+    /* border-radius: 40px 40px 0px 0px; */
+    height: auto;
+    padding-top: 8px;
+    margin: 10px 0px 0px 0px;
+    font-family: cursive;
+    text-align: center;
+}
+.mobile_device h4{
+    margin:0px;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.mobile_device p{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.title_image{
+    /* width: 300px; */
+    /* width: 100%;
+    margin: auto;
+    border: 3px solid #432;
+    border-radius: 50px;
+    margin-left: 2px; */
+    overflow: hidden;
+    height: 300px;
+}
+
+
+.icon{
+    margin-top:15px;
+}
+.icon a{
+    color: white
+}
+.icon a i{
+    padding: 10px;
+    background: #00bcd4;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.icon a i:hover{
+    background-color:#524f4f
+}
+.mySlides {display:none;}
+
+
+
+
