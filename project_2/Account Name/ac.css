@@ -1,0 +1,101 @@
+#print_ac{
+
+}
+.logo_ac{
+    margin-left: 4.135in;
+}
+.print_ac{
+    width:80%;
+    background-color: rgba(185, 185, 185, 0.39);
+    height: auto;
+    margin:auto;
+}
+.ac_dtl{
+    font-size: 18px;
+    line-height: 35px;
+    padding-top: 15px;
+}
+.ac_dtl span{
+    display: block;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.ac_dtl input{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 300px;
+    height: 21px;
+    font-size: 15px;
+}
+.ac_dtl button{
+    margin-left: 13px;
+    width: 490px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+#ac_name, #ac_number_show, #ac_mobile_show{
+    display: inline;
+    font-weight: bold;
+}
+
+#toprint p{
+    color: #034c9c;
+    margin: 0;
+    margin-left: 412px;
+    padding-top: 7px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+#toprint p span{
+    font-size: 25px;
+}
+.ac span{
+    color: #034c9c;
+    margin: 0;
+    margin-left: 412px;
+    padding-top: 7px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.ac span u{
+    color:black;
+    background-color: antiquewhite;
+}
+
+.logo_ac2{
+    margin-left: 12px;
+}
+
+
+#toprint2 p{
+    color: #034c9c;
+    margin: 0;
+    margin-left: 12px;
+    padding-top: 7px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+#toprint2 p span{
+    font-size: 25px;
+}
+
+
+.ac2 span{
+    color: #034c9c;
+    margin: 0;
+    margin-left: 12px;
+    padding-top: 7px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.ac2 span u{
+    color:black;
+    background-color: antiquewhite;
+}

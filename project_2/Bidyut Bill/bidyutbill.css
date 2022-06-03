@@ -1,0 +1,43 @@
+.main_section{
+    width: 80%;
+    background-color: rgba(185, 185, 185, 0.39);
+    height: auto;
+    margin: auto;
+}
+.title_top{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+input{
+    width:200px;
+    height: 20px;
+}
+
+
+
+table, th, td{
+    border: 1px solid black;
+}
+  
+table{
+    /* width: 100%; */
+}
+
+.s_l{
+    width:140px;
+    text-align: center;
+}
+.h_n{
+    width: 150px;
+}
+.tk{
+    width: 200px;
+}
+
+.table{
+    padding-left: 240px;
+}

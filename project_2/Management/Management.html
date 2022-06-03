@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="management.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Management</title>
+<body>
+<!-- ===============Header===================-->
+    
+    <div class="header">
+        <div class="left">
+            <a href="../index.html">
+                <div class="logo"><img src="../image/bank_logo.png" alt=""></div>
+            </a>
+
+        </div>
+
+        <div class="right">
+        <ul>
+            <li><a href="#">System Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">User To Do List</a></li>
+            <li><a href="#">Logout</a></li>
+            <li><a id="time"></a></li>
+        </ul>    
+        </div>
+    </div>
+<!-- ===============End Header===================-->
+
+<!-- ===============Menu===================-->
+<div class="menu">
+    
+
+    <div class="navbar">
+        <a href="../index.html" >All Information</a>
+        <a href="" class="active">Management</a>
+        <a href="../Remittance/index.html" >Remittance</a>
+        <a href="../Account Name/index.html">Account Print</a>
+        <a href="../Bidyut Bill/index.html">Bidyut Bill</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Report
+            <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Daily report</a>
+                    <a href="#">Monthly Report</a>
+                    <a href="#">Annual Report</a>
+                </div>
+        </div> 
+    </div>
+      
+
+
+</div>
+<!-- ===============End Menu===================-->
+
+
+<!--================ Management ==================-->
+
+
+<section class="main_box">
+    <div class="total_cost">
+        <span>সর্বপ্রথম টাকার পরিমান</span>
+        <hr>
+        <p>Total Amount</p>
+        <input type="number" placeholder="Taka" id="Total_Amount">
+        <br>
+        <button id="Total_Amount_submit" onclick="Total_Amout_Submit()">Submit</button>
+
+
+
+        </div>
+    </div>
+<hr>
+<hr>
+<hr>
+    
+    <div class="daily">
+        <h2>প্রতিদিন হিসাব সম্পুর্ন</h2>
+        <h3>Every day the account is complete</h3>
+<hr>
+        <p>একাউন্ট ব্যালেন্স</p>
+        <input type="text" placeholder="Account Balance" id="Account_Balance">
+
+        <p>নগদ টাকা</p>
+        <input type="text" placeholder="Cash Taka" id="cash">
+
+        <p>দোকানে আছে এমন টাকা</p>
+        <input type="text" placeholder="Dokane ache emon Taka" id="cash_dokan">
+
+        <button id="daily_submit" onclick="daily_submit()">Submit</button>
+
+        
+        
+    </div>
+    
+    <div class="test" id="test"></div>
+    
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../javascript.js"></script>
+<script src="management.js"></script>
+</body>
+</html>

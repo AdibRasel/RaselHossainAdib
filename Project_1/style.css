@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+/* Header  */
+.header{
+    background-color: #cddc3930;
+    height: 160px;
+    padding-top: 25px;
+    border-bottom: 2px solid #00b24f;
+    overflow: hidden;
+}
+.left_logo{
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left:10px; */
+}
+.left_logo img{
+    width:100px;
+    max-width: 100%;
+
+}
+.center_logo{
+    overflow: hidden;
+}
+.center_logo img{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+/* Header End  */
+
+/* Main Content  */
+
+.main_content{
+
+}
+.mul_malik{
+    text-align: center;
+}
+.mul_malik h1{
+    margin: 20px 0px 0px 0px;
+    padding: auto;
+}
+input{
+    height: 30px;
+    width: 180px;
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.dag_1{
+    width: 2px;
+    height: 50px;
+    margin: auto;
+    background-color: black;
+}
+._2nd_malik{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+._2nd_malik h2{
+    margin: 0px 0px 0px 0px;
+    padding: auto;
+    display: inline;
+}
+._2nd_malik form{
+    display: inline;
+}
+#select{
+    height: 30px;
+    font-weight: bold;
+    width: 75px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+
+.dag_2{
+    width: 60%;
+    height: 2px;
+    margin: auto;
+    background-color: black;
+}
+
+._3rd_malik{
+
+}
+
+._3rd_malik_chele{
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+._3rd_malik_chele form{
+    display: inline;
+}
+
+
+._3rd_malik_meye{
+    margin-left: 75%;
+    font-size: 18px;
+    font-weight: bold;
+}
+._3rd_malik_meye form{
+    display: inline;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.button{
+    margin: auto;
+    text-align: center;
+}
+button{
+    background-color: #00b24f;
+    color: aliceblue;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    color:black;
+    background-color: yellowgreen;
+}
+
+#Progress_Status {
+    width: 75%;
+    background-color: #ddd;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+  #myprogressBar {
+    width: 1%;
+    height: 35px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+  }
+  .pogres{
+      margin-left: 20%;
+  }

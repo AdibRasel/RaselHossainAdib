@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="remittance.css">
+    <title>All Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<!-- ===============Header===================-->
+    
+    <div class="header">
+        <div class="left">
+            <a href="#">
+                <div class="logo"><img src="../image/bank_logo.png" alt=""></div>
+            </a>
+
+        </div>
+
+        <div class="right">
+        <ul>
+            <li><a href="#">System Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">User To Do List</a></li>
+            <li><a href="#">Logout</a></li>
+            <li><a id="time"></a></li>
+        </ul>    
+        </div>
+    </div>
+<!-- ===============End Header===================-->
+
+
+
+
+<!-- ===============Menu===================-->
+
+<div class="menu">
+    
+
+    <div class="navbar">
+        <a href="../index.html">All Information</a>
+        <a href="../Management/Management.html">Management</a>
+        <a href="#" class="active">Remittance</a>
+        <a href="../Account Name/index.html">Account Print</a>
+        <a href="../Bidyut Bill/index.html">Bidyut Bill</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Report
+            <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Daily report</a>
+                    <a href="#">Monthly Report</a>
+                    <a href="#">Annual Report</a>
+                </div>
+        </div> 
+    </div>
+      
+
+
+</div>
+
+<!-- main section -->
+
+
+<section class="main_section">
+
+<div class="title">
+    রেমিট্যান্স এর ২% লাভ বাহির করার সহজ সিসেস্টেম
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+
+<div class="bonas">
+    টোটাল টাকা
+    <input type="number" placeholder="Total Taka" id="taka">
+    <button type="button" onclick="submit()">Submit</button>
+</div>
+
+
+<div class="bonas_tk">
+
+    
+    বোনাস = <div id="bonas"></div>
+    <hr>
+    মোট টাকা = <div id="Total_bonas"></div>
+    
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="javascript.js"></script>
+<script src="remittance.js"></script>
+</body>
+</html>

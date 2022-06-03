@@ -1,0 +1,115 @@
+.page_name{
+    width: 93%;
+    height: 28px;
+    background-color: #e9ecef;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-radius: 10px;
+    padding-bottom: 35px;
+}
+.page_name a{
+    color: #007bff;
+}
+.main_header{
+   margin-left:20px;
+   width:95%;
+   background-color:#198754;
+   padding:20px;
+   margin-top:20px;
+   font-weight: bold;
+   border-radius: 30px;
+}
+.main_header h3{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: #cddc39;
+    padding: 30px;
+    border-radius: 30px;
+}
+.class_pat{
+    margin-left: 20px;
+    color:white
+}
+.class_pat ul{
+    list-style: bengali;
+}
+.class_pat ul u li{
+
+}
+
+.main_content h2{
+    text-align: center;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+.image_mentor{
+    width: 300px;
+    margin: auto;
+    border: 3px solid #432;
+    border-radius: 50px;
+}
+.card-title_mentor{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body h5{
+    text-align: center;
+    font-weight: bold;
+}
+.card-body p{
+    text-align: center;
+    margin: auto;
+}
+.card-body{
+    text-align: center;
+}
+.card-body a button i{
+    font-size: 30px;
+}
+.image_student{
+    height: 250px;
+}
+
+.image_student_1{
+    margin-left:20px;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.main_content_2{
+    margin-left:20px;
+}
+.main_content_2 p{
+    margin-top: 30px;
+}
+.class_pat u ul a{
+    color:white
+}
+.class_pat u ul a:hover{
+    color:black
+}
+
+
+#top_button{
+    margin-left: 60px;
+    background: #009688;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left:90%;
+}
+#top_button:hover{
+    background-color: #00bcd4;
+}
+
+

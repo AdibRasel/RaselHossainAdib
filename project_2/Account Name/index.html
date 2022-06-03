@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ac.css">
+    <title>All Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<!-- ===============Header===================-->
+    
+    <div class="header">
+        <div class="left">
+            <a href="../index.html">
+                <div class="logo"><img src="../image/bank_logo.png" alt=""></div>
+            </a>
+
+        </div>
+
+        <div class="right">
+        <ul>
+            <li><a href="#">System Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">User To Do List</a></li>
+            <li><a href="#">Logout</a></li>
+            <li><a id="time"></a></li>
+        </ul>    
+        </div>
+    </div>
+<!-- ===============End Header===================-->
+
+
+
+
+<!-- ===============Menu===================-->
+
+<div class="menu">
+    
+
+    <div class="navbar">
+        <a href="../index.html" class="">All Information</a>
+        <a href="../Management/Management.html">Management</a>
+        <a href="../Remittance/index.html">Remittance</a>
+        <a href="#" class="active">Account Print</a>
+        <a href="../Bidyut Bill/index.html" class="">Bidyut Bill</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Report
+            <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Daily report</a>
+                    <a href="#">Monthly Report</a>
+                    <a href="#">Annual Report</a>
+                </div>
+        </div> 
+    </div>
+</div>
+
+<section class="print_ac">
+    <div id="print_ac">
+        <div class="ac_dtl">
+            <span>Account Information</span>
+            <hr>
+            Account Name:
+            <input id="ac_name1" type="text" placeholder="Account Name"><br>
+            Account Number:
+            <input id="ac_number" type="number" placeholder="Account Number"><br>
+            Mobile Number:
+            <input id="ac_mobile" type="number" placeholder="Mobile Number"><br>
+            <button type="button" value="Print Above Section" onclick="window.submit()">Submit</button>
+            <button onclick="window.print()">Print this page</button>
+
+            
+        </div>
+            <hr>
+            <hr>
+            <hr>
+    </div>
+    
+    
+
+    <!-- toprint 1 -->
+    <!-- <div id="toprint">
+        
+        <img src="image/bank_logo.png" class="logo_ac" alt="Shahajalal Islami Bank">
+        
+        <br>
+        <p><span>Shahajalal Islami Bank</span><br>
+        Agent Banking Division<br>
+        Foreign Remittance Routing No: 190270603</p>
+        <div class="ac">
+            
+            <span>Account Name: <u><div id="ac_name1"></div></span></u><br>
+            <span>Account Number: <u><div id="ac_number_show1"></div></u> </span><br>
+            <span>Mobile Number: <u><div id="ac_mobile_show1"></div></u> </span>
+        </div>
+            
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <button onclick="window.print()">Print this page</button>
+        
+        
+        
+    </div> -->
+    <!-- toprint1 -->
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+    <!-- <button onclick="window.print()">Print this page</button> -->
+
+
+
+<!-- 222222222222222222222 -->
+
+
+
+
+    <div id="toprint2">
+        
+        <img src="image/bank_logo.png" class="logo_ac2" alt="Shahajalal Islami Bank">
+        
+        <br>
+        <p><span>Shahajalal Islami Bank</span><br>
+        Agent Banking Division<br>
+        Foreign Remittance Routing No: 190270603</p>
+        <div class="ac2">
+            
+            <span>Account Name: <u><div id="ac_name"></div></span></u><br>
+            <span>Account Number: <u><div id="ac_number_show"></div></u> </span><br>
+            <span>Mobile Number: <u><div id="ac_mobile_show"></div></u> </span>
+        </div>
+            
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- (A) THE HTML -->
+    <!-- (A1) SECTION TO BE PRINTED -->
+    <!-- <div id="toprint">
+        <h1>Foo Bar!</h1>
+        <p>Hello World</p>
+    </div> -->
+    <!-- (A2) PRINT BUTTON -->
+    <!-- <input type="button" value="Print Above Section" onclick="window.printpart()"/> -->
+
+    
+    <!-- (B) THE JAVASCRIPT -->
+    <!-- <script>
+        //   function printpart () {
+            //     var printwin = window.open("");
+            //     printwin.document.write(document.getElementById("toprint").innerHTML);
+            //     printwin.stop();
+            //     printwin.print();
+            //     printwin.close();
+            //   }
+        </script> -->
+        
+        
+        
+    </section>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="javascript.js"></script>
+<script src="ac.js"></script>
+</body>
+</html>

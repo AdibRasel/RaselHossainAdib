@@ -1,0 +1,56 @@
+.main_section{
+    width: 80%;
+    background-color: rgba(185, 185, 185, 0.39);
+    height: 1000px;
+    margin: auto;
+}
+.title{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color:#326db2;
+}
+
+.bonas{
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 30%;
+}
+
+.bonas input{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 300px;
+    height: 21px;
+    font-size: 15px;
+}
+.bonas button{
+    margin-left: 13px;
+    width: 415px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.bonas_tk{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+
+
+#bonas{
+    color:red;
+    display: inline;
+    font-weight: bold;
+}
+#Total_bonas{
+    color:red;
+    display: inline;
+    font-weight: bold;
+
+}
+

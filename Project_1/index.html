@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>উত্তরাধিকার</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="left_logo">
+            <img src="image/a2i_logo_t.png" alt="">
+            <img src="image/gov_logo_t.png" alt="">
+        </div>
+        <div class="center_logo">
+            <img src="image/logo_inheritance.png" class="center" alt="">
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Main Content -->
+    <div class="main_content">
+        <div class="mul_malik">
+            <h1>মূল মালিক (বাবা)</h1>
+            <input type="number" id="mul_malik" placeholder="মোট সম্পত্তি">
+        </div>
+        <div class="dag_1"></div>
+
+        <div class="_2nd_malik">
+            <h2>মালিক (মা)</h2>
+            <form>
+                <select id="select__2nd_malik">
+                  <option value="" selected>জীবিত হ্যা/না??</option>
+                  <option value="Alive">জীবিত</option>
+                  <option value="Dead">মৃত</option>
+                </select>
+              </form>
+              <div id="ans">
+                  <span>মোটঃ </span>
+                    <span id="ma"></span>
+                <span> অংশ পাবেন।</span>
+              </div>
+        </div>
+        <div class="dag_1"></div>
+        <div class="dag_2"></div>
+        
+        <div class="_3rd_malik">
+            <div class="_3rd_malik_chele">
+                <span>ছেলে সন্তান</span>
+                <form>
+                    <select id="select_3rd_malik_chele">
+                      <option value="1" selected>১ জন</option>
+                      <option value="2">২ জন</option>
+                      <option value="3">৩ জন</option>
+                      <option value="4">৪ জন</option>
+                      <option value="5">৫ জন</option>
+                      <option value="6">৬ জন</option>
+                      <option value="7">৭ জন</option>
+                      <option value="8">৮ জন</option>
+                      <option value="9">৯ জন</option>
+                      <option value="10">১০ জন</option>
+                      <option value="no">নেই</option>
+                    </select>
+                  </form>
+                  <div id="ans">
+                    <span>মোটঃ </span>
+                        <span id="chele"></span>
+                  <span> অংশ করে পাবেন।</span>
+                </div>
+            </div>
+            <div class="_3rd_malik_meye">
+                <span>মেয়ে সন্তান</span>
+                <form>
+                    <select id="select_3rd_malik_meye">
+                      <option value="1" selected>১ জন</option>
+                      <option value="2">২ জন</option>
+                      <option value="3">৩ জন</option>
+                      <option value="4">৪ জন</option>
+                      <option value="5">৫ জন</option>
+                      <option value="6">৬ জন</option>
+                      <option value="7">৭ জন</option>
+                      <option value="8">৮ জন</option>
+                      <option value="9">৯ জন</option>
+                      <option value="10">১০ জন</option>
+                      <option value="no">নেই</option>
+                    </select>
+                  </form>
+                  <div>
+                    <span>মোটঃ </span>
+                    <span id="meye"></span>
+                  <span> অংশ করে পাবেন।</span>
+                </div>
+            </div>
+        </div>
+        <div class="pogres">
+            <div id="Progress_Status">
+                <div id="myprogressBar">1%</div>
+              </div>
+        </div>
+        <div class="button">
+            <button onclick="update()">Submit</button>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <!-- Main Content End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
