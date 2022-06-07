@@ -57,3 +57,45 @@ function update() {
     // document.getElementById("ans1").innerHTML = "hell";
     // window.alert("hello bangladesh")
 }
+
+
+
+
+
+
+
+
+
+
+function hissa() {
+
+
+
+  var element = document.getElementById("myprogressBar_hissa");   
+  var width = 1;
+  var identity = setInterval(scene, 10);
+  function scene() {
+    if (width >= 100) {
+      clearInterval(identity);
+    } else {
+      width++; 
+      element.style.width = width + '%'; 
+      element.innerHTML = width * 1  + '%';
+    }
+  }
+
+var hissa = document.getElementById("hissa").value;
+var jomir_poriman = document.getElementById("jomir_poriman").value;
+
+var result_hissa = jomir_poriman / 1000;
+var result_my_hissa = result_hissa * hissa;
+
+
+document.getElementById("hissa_result").innerHTML = result_my_hissa;
+
+
+
+
+
+
+}
